@@ -54,7 +54,7 @@ namespace EmployeeNamespace
 
         public void computeSalary(int hoursWorked, double ratePerHour)
         {
-            this.employeeBasicSalary = hoursWorked * ratePerHour;
+            basicSalary = hoursWorked * ratePerHour;
         }
         public double getSalary()
         {
